@@ -17,6 +17,7 @@ public class leetcode347 {
 
 
     /**
+     * “桶排序”
      * 先将每个数字出现的次数存入map中,然后将出现1，2，3次的数字作为一个list存入list[]中，最后从大到小取出数值
      * @param nums
      * @param k
