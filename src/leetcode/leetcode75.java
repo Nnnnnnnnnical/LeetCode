@@ -15,6 +15,10 @@ public class leetcode75 {
         }
     }
 
+    /**
+     * 三向切分快速排序
+     * @param nums
+     */
     public static void sortColors(int[] nums){
         int left = -1,mid = 0,right = nums.length;
         while(mid<right){

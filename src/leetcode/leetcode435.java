@@ -13,8 +13,13 @@ public class leetcode435 {
       int end;
       Interval() { start = 0; end = 0; }
       Interval(int s, int e) { start = s; end = e; }
-  }
+    }
 
+    /**
+     *先将区间的end由小到大排序，将总区间数-保留的区间数。保留区间数为end小于下一个的start
+     * @param intervals
+     * @return
+     */
     public static int eraseOverlapIntervals(Interval[] intervals){
         if(intervals.length == 0){
             return  0;

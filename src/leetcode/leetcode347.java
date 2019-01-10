@@ -15,6 +15,13 @@ public class leetcode347 {
         System.out.println(topKFrequent(nums,2));
     }
 
+
+    /**
+     * 先将每个数字出现的次数存入map中,然后将出现1，2，3次的数字作为一个list存入list[]中，最后从大到小取出数值
+     * @param nums
+     * @param k
+     * @return
+     */
     public static List<Integer> topKFrequent(int[] nums,int k){
         Map<Integer,Integer> map = new HashMap<>();
         for(int i : nums){
@@ -40,29 +47,4 @@ public class leetcode347 {
         return topK;
     }
 
-
-//    public static List<Integer> topKFrequent(int[] nums, int k) {
-//        Map<Integer,Integer> map = new HashMap<>();
-//        for(int i : nums){
-//                map.put(i,map.getOrDefault(i,0)+1);
-//        }
-//
-//        List<Integer>[] buckets = new ArrayList[nums.length + 1];
-//        for (int key : map.keySet()) {
-//            int frequency = map.get(key);
-//            System.out.println(frequency);
-//            if (buckets[frequency] == null) {
-//                buckets[frequency] = new ArrayList<>();
-//            }
-//            buckets[frequency].add(key);
-//
-//        }
-//        List<Integer> topK = new ArrayList<>();
-//        for (int i = buckets.length - 1; i >= 0 && topK.size() < k; i--) {
-//            if (buckets[i] != null) {
-//                topK.addAll(buckets[i]);
-//            }
-//        }
-//        return topK;
-//    }
 }

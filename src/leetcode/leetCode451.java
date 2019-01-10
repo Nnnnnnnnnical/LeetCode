@@ -13,6 +13,11 @@ public class leetCode451 {
         System.out.println(frequencySort("tree"));
     }
 
+    /**
+     * 类似于347题。
+     * @param s
+     * @return
+     */
     public static String frequencySort(String s){
         Map<Character,Integer> map = new HashMap<>();
         for(char c :s.toCharArray()){

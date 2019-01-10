@@ -13,6 +13,12 @@ public class leetcode455 {
         System.out.println(findContentChildren(g,s));
     }
 
+    /**
+     * 现将两个数组排序，以孩子的胃口为基准，g0为3去s中寻找大于等于3的值，以此类推，一直到g遍历完或者s遍历完
+     * @param g
+     * @param s
+     * @return
+     */
     public static int findContentChildren(int[] g, int[] s) {
 
         Arrays.sort(g);

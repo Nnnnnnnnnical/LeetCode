@@ -17,6 +17,11 @@ public class leetcode452 {
     }
 
 
+    /**
+     * 类似于435题。
+     * @param points
+     * @return
+     */
     public static int findMinArrowShots(int[][] points) {
         if(points == null){
             return 0;

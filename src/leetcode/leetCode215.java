@@ -13,6 +13,12 @@ public class leetCode215 {
         System.out.println(findKthLargest(nums,2));
     }
 
+    /**
+     * 优先队列
+     * @param nums
+     * @param k
+     * @return
+     */
     public static int findKthLargest(int[] nums, int k) {
 
         PriorityQueue<Integer> priorityQueue = new PriorityQueue<>();

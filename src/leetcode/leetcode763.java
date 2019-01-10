@@ -16,6 +16,11 @@ public class leetcode763 {
         return c - 'a';
     }
 
+    /**
+     * 存储每个字母最后一次出现的位置，遍历整个字符串，记录当前最后值lastIndex，如果出现遍历到某个位置等于改最后值lastIndex，那么截断字符串，此长度为切断点，以此类推至遍历完整个字符串
+     * @param S
+     * @return
+     */
     public static List<Integer> partitionLabels(String S){
         int[] lastIndexArray = new int[26];
         for(int i =0;i<S.length();i++){
