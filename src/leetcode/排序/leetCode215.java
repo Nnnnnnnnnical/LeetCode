@@ -1,4 +1,4 @@
-package leetcode.贪心算法;
+package leetcode.排序;
 
 import java.util.PriorityQueue;
 
