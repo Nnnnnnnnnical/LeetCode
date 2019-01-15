@@ -14,7 +14,7 @@ public class leetCode215 {
     }
 
     /**
-     * 优先队列
+     * 最小优先队列  将所有数依次放入队列中，当队列总数达到k时，每次将队首取出，那么当遍历完数组后，peek的数就是第k个最大的数
      * @param nums
      * @param k
      * @return
