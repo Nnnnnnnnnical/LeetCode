@@ -20,17 +20,16 @@ public class leetcode75 {
      * @param nums
      */
     public static void sortColors(int[] nums){
-        int left = -1,mid = 0,right = nums.length;
-        while(mid<right){
-            if(nums[mid] == 0){
-                swap(nums,++left,mid++);
-
-            }else if (nums[mid] == 2){
-                swap(nums,--right,mid);
-            }else {
-                mid++;
-            }
-        }
+       int left = 0,mid = 0,right = nums.length;
+       while(mid<right){
+           if(nums[mid] == 0){
+               swap(nums,left++,mid++);
+           }else if(nums[mid] == 2){
+               swap(nums,--right,mid);
+           }else {
+               mid++;
+           }
+       }
     }
 
 
