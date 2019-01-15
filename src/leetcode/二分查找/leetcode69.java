@@ -11,7 +11,7 @@ public class leetcode69 {
      * @param args
      */
     public static void main(String[] args){
-        int x = 6;
+            int x = 8;
         System.out.println(mySqrt(x));
     }
 
@@ -21,17 +21,14 @@ public class leetcode69 {
      * @return
      */
     public static int mySqrt(int x) {
-
         int l = 1,r = x;
         while(l<=r){
             int mid = l+(r-l)/2;
             int sqrt = x/mid;
-            if(sqrt == mid){
-                return mid;
-            }else if(sqrt>mid){
-                l = mid +1;
+            if(mid>sqrt){
+                r = mid - 1;
             }else {
-                r = mid -1;
+                l = mid+1;
             }
         }
         return r;
