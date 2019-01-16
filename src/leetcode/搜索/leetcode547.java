@@ -15,6 +15,11 @@ public class leetcode547 {
 
     private static int n;
 
+    /**
+     * 类比200题，hasVisited记录是否访问过
+     * @param M
+     * @return
+     */
     public static int findCircleNum(int[][] M) {
 
         n = M.length;
