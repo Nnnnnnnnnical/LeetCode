@@ -36,4 +36,24 @@ public class leetcode744 {
 
     }
 
+    //解法2
+//    public static char nextGreatestLetter(char[] letters, char target) {
+//
+//        int l = 0,r = letters.length-1;
+//        while(l<r){
+//            int mid = l+(r-l)/2;
+//            if(target >= letters[mid]){
+//                l = mid +1;
+//            }else {
+//                r = mid;
+//            }
+//        }
+//        if(target>=letters[letters.length-1]){
+//            return letters[0];
+//        }
+//
+//        return letters[l];
+//
+//    }
+
 }
