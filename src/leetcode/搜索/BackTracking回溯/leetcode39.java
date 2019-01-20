@@ -35,6 +35,7 @@ public class leetcode39 {
     public static void backTracking(List<List<Integer>> ans,List<Integer> temp, int target,int start,int[] candidates){
         if(target == 0){
             ans.add(new ArrayList<>(temp));
+            return;
         }
 
         for(int i = start;i<candidates.length&&target>0;i++){
