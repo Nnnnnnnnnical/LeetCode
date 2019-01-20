@@ -5,12 +5,15 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.concurrent.ArrayBlockingQueue;
 
+/**
+ * 给定一个可包含重复数字的序列，返回所有不重复的全排列。
+ */
 public class leetcode47 {
 
 
     public static void main(String[] args){
         int[] nums = new int[]{1,1,3};
-        List<List<Integer>> ans = permute(nums);
+        List<List<Integer>> ans = permuteUnique(nums);
         for(int i = 0;i<ans.size();i++){
             for(int j = 0;j<ans.get(i).size();j++){
                 System.out.print(ans.get(i).get(j)+",");
@@ -24,7 +27,7 @@ public class leetcode47 {
 
      在实现上，和 Permutations 不同的是要先排序，然后在添加一个元素时，判断这个元素是否等于前一个元素，如果等于，并且前一个元素   还未访问，那么就跳过这个元素。
      */
-    public static List<List<Integer>> permute(int[] nums) {
+    public static List<List<Integer>> permuteUnique(int[] nums) {
         List<List<Integer>> permutes = new ArrayList<>();
         List<Integer> permuteList = new ArrayList<>();
         Arrays.sort(nums);

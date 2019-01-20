@@ -3,6 +3,9 @@ package leetcode.搜索.BackTracking回溯;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * 给定两个整数 n 和 k，返回 1 ... n 中所有可能的 k 个数的组合。
+ */
 public class leetcode77 {
 
 
@@ -16,6 +19,12 @@ public class leetcode77 {
         }
     }
 
+    /**
+     * 定义一个start来作为起始数字
+     * @param n
+     * @param k
+     * @return
+     */
     public static List<List<Integer>> combine(int n, int k) {
         List<List<Integer>> ans = new ArrayList<>();
         List<Integer> temp = new ArrayList<>();
