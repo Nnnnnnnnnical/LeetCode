@@ -5,9 +5,7 @@
       <change beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/动态规划/leetcode343.java" />
       <change beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/动态规划/leetcode62.java" />
       <change beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/搜索/BackTracking回溯/leetcode257.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/链表/leetcode83.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/链表/ListNode.java" afterPath="$PROJECT_DIR$/src/leetcode/链表/ListNode.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -59,6 +57,19 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="leetcode62.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/动态规划/leetcode62.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="196">
+              <caret line="18" column="32" lean-forward="false" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+              <folding>
+                <element signature="e#243#244#0" expanded="true" />
+                <element signature="e#295#296#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="leetcode206.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcode/链表/leetcode206.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -69,7 +80,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="leetcode83.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="leetcode83.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcode/链表/leetcode83.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="208">
@@ -107,16 +118,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="292">
               <caret line="51" column="17" lean-forward="false" selection-start-line="51" selection-start-column="17" selection-end-line="51" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="leetcode257.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/搜索/BackTracking回溯/leetcode257.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="520">
-              <caret line="20" column="25" lean-forward="false" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -169,7 +170,6 @@
         <option value="$PROJECT_DIR$/src/leetcode/搜索/leetcode417.java" />
         <option value="$PROJECT_DIR$/src/leetcode/分治法/leetcode198.java" />
         <option value="$PROJECT_DIR$/src/leetcode/动态规划/leetcode213.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/动态规划/leetcode62.java" />
         <option value="$PROJECT_DIR$/src/leetcode/动态规划/leetcode70.java" />
         <option value="$PROJECT_DIR$/src/leetcode/动态规划/leetcode303.java" />
         <option value="$PROJECT_DIR$/src/leetcode/二分查找/leetcode153.java" />
@@ -200,6 +200,7 @@
         <option value="$PROJECT_DIR$/src/leetcode/链表/leetcode206.java" />
         <option value="$PROJECT_DIR$/src/leetcode/链表/ListNode.java" />
         <option value="$PROJECT_DIR$/src/leetcode/链表/leetcode83.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/动态规划/leetcode62.java" />
       </list>
     </option>
   </component>
@@ -267,7 +268,7 @@
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="链表" type="462c0819:PsiDirectoryNode" />
+              <item name="动态规划" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -298,7 +299,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.leetcode160">
+  <component name="RunManager" selected="Application.leetcode62">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -357,14 +358,14 @@
       <module name="leetcode" />
       <envs />
     </configuration>
-    <configuration name="leetcode39" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="leetcode40" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="leetcode.搜索.BackTracking回溯.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="leetcode.搜索.BackTracking回溯.leetcode39" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.搜索.BackTracking回溯.leetcode40" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -376,14 +377,14 @@
       <module name="leetcode" />
       <envs />
     </configuration>
-    <configuration name="leetcode40" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="leetcode62" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="leetcode.搜索.BackTracking回溯.*" />
+          <option name="PATTERN" value="leetcode.动态规划.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="leetcode.搜索.BackTracking回溯.leetcode40" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.动态规划.leetcode62" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -475,19 +476,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.leetcode39" />
-      <item index="1" class="java.lang.String" itemvalue="Application.leetcode40" />
-      <item index="2" class="java.lang.String" itemvalue="Application.leetcode216" />
-      <item index="3" class="java.lang.String" itemvalue="Application.leetcode78" />
-      <item index="4" class="java.lang.String" itemvalue="Application.leetcode160" />
+      <item index="0" class="java.lang.String" itemvalue="Application.leetcode40" />
+      <item index="1" class="java.lang.String" itemvalue="Application.leetcode216" />
+      <item index="2" class="java.lang.String" itemvalue="Application.leetcode78" />
+      <item index="3" class="java.lang.String" itemvalue="Application.leetcode160" />
+      <item index="4" class="java.lang.String" itemvalue="Application.leetcode62" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.leetcode160" />
-        <item index="1" class="java.lang.String" itemvalue="Application.leetcode78" />
-        <item index="2" class="java.lang.String" itemvalue="Application.leetcode40" />
-        <item index="3" class="java.lang.String" itemvalue="Application.leetcode216" />
-        <item index="4" class="java.lang.String" itemvalue="Application.leetcode39" />
+        <item index="0" class="java.lang.String" itemvalue="Application.leetcode62" />
+        <item index="1" class="java.lang.String" itemvalue="Application.leetcode160" />
+        <item index="2" class="java.lang.String" itemvalue="Application.leetcode78" />
+        <item index="3" class="java.lang.String" itemvalue="Application.leetcode40" />
+        <item index="4" class="java.lang.String" itemvalue="Application.leetcode216" />
       </list>
     </recent_temporary>
   </component>
@@ -530,7 +531,7 @@
       <workItem from="1547956614848" duration="5670000" />
       <workItem from="1547963193441" duration="10540000" />
       <workItem from="1548047017448" duration="6083000" />
-      <workItem from="1548129562573" duration="6094000" />
+      <workItem from="1548129562573" duration="7637000" />
     </task>
     <task id="LOCAL-00001" summary="[add] 部分题解">
       <created>1547032741634</created>
@@ -812,11 +813,18 @@
       <option name="project" value="LOCAL" />
       <updated>1548135255705</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="[add] 添加83题">
+      <created>1548136643456</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1548136643456</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="165063000" />
+    <option name="totallyTimeSpent" value="166606000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -830,7 +838,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26519337" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26519337" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928178" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -841,7 +849,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43425414" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.43425414" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -858,7 +866,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[revise] 添加215题算法的注释" />
     <MESSAGE value="[add] 添加695题" />
     <MESSAGE value="[add] 添加547题" />
     <MESSAGE value="[add] 添加130题" />
@@ -883,11 +890,12 @@
     <MESSAGE value="[add] 添加160题" />
     <MESSAGE value="[add] 添加206题" />
     <MESSAGE value="[add &amp; revise] 添加21题 分离ListNode" />
-    <option name="LAST_COMMIT_MESSAGE" value="[add &amp; revise] 添加21题 分离ListNode" />
+    <MESSAGE value="[add] 添加83题" />
+    <option name="LAST_COMMIT_MESSAGE" value="[add] 添加83题" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="106" />
+      <option name="time" value="107" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1123,13 +1131,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/动态规划/leetcode62.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/动态规划/leetcode343.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
@@ -1243,6 +1244,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/链表/leetcode83.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="8" column="5" lean-forward="false" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/链表/leetcode160.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="359">
@@ -1275,11 +1284,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/链表/leetcode83.java">
+    <entry file="file://$PROJECT_DIR$/src/leetcode/动态规划/leetcode62.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="8" column="5" lean-forward="false" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-          <folding />
+        <state relative-caret-position="196">
+          <caret line="18" column="32" lean-forward="false" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+          <folding>
+            <element signature="e#243#244#0" expanded="true" />
+            <element signature="e#295#296#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
