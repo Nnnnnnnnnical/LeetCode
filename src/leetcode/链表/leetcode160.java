@@ -5,16 +5,6 @@ package leetcode.链表;
  */
 public class leetcode160 {
 
-     public static class ListNode {
-         int val;
-         ListNode next;
-         ListNode(int x) {
-             val = x;
-             next = null;
-         }
-     }
-
-
     /**
      * 设 A 的长度为 a + c，B 的长度为 b + c，其中 c 为尾部公共部分长度，可知 a + c + b = b + c + a。
 

@@ -1,15 +1,9 @@
 package leetcode.链表;
 
+/**
+ * 反转一个单链表。
+ */
 public class leetcode206 {
-
-    public static class ListNode {
-        int val;
-        ListNode next;
-        ListNode(int x) {
-            val = x;
-            next = null;
-        }
-    }
 
     public ListNode reverseList(ListNode head) {
         ListNode newHead = new ListNode(-1);
