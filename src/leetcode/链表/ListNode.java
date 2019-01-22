@@ -11,9 +11,6 @@ public class ListNode {
 
     private ListNode head;
 
-    public ListNode(){
-        head = null;
-    }
     // 在链表头添加新的元素e
     public void addFirst(int e){
         ListNode node = new ListNode(e);
