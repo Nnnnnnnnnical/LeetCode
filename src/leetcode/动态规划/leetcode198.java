@@ -21,7 +21,8 @@ public class leetcode198 {
         if(n == 1){
             return nums[0];
         }
-        return Math.max(rob(nums,0,n),rob(nums,1,n));
+        //return Math.max(rob(nums,0,n),rob(nums,1,n));//
+        return rob(nums,0,n);
     }
 
     private static int rob(int[] nums, int first, int last) {
