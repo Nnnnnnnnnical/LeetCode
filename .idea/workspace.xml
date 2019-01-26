@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4cfa4f4b-9f4e-46e9-ae96-a9ff0a185c35" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/链表/leetcode24.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/树/TreeNode.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/树/leetcode104.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -15,26 +16,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="leetcode93.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/搜索/BackTracking回溯/leetcode93.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="780">
-              <caret line="31" column="1" lean-forward="false" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="leetcode47.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/搜索/BackTracking回溯/leetcode47.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="988">
-              <caret line="41" column="52" lean-forward="false" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="52" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="leetcode39.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcode/搜索/BackTracking回溯/leetcode39.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -105,12 +86,35 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="leetcode24.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="leetcode24.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcode/链表/leetcode24.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="182">
-              <caret line="7" column="4" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="leetcode104.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/树/leetcode104.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="104">
+              <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="10" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TreeNode.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/树/TreeNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="182">
+              <caret line="7" column="16" lean-forward="false" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+              <folding>
+                <element signature="e#116#117#0" expanded="true" />
+                <element signature="e#139#140#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -142,8 +146,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/leetcode/leetcode53.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/leetcode122.java" />
         <option value="$PROJECT_DIR$/src/leetcode/leetcode121.java" />
         <option value="$PROJECT_DIR$/src/leetcode/贪心算法/leetCode451.java" />
         <option value="$PROJECT_DIR$/src/leetcode/二分查找/leetcode278.java" />
@@ -193,6 +195,8 @@
         <option value="$PROJECT_DIR$/src/leetcode/动态规划/最长递增子序列/leetcode300.java" />
         <option value="$PROJECT_DIR$/src/leetcode/链表/leetcode19.java" />
         <option value="$PROJECT_DIR$/src/leetcode/链表/leetcode24.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/树/TreeNode.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/树/leetcode104.java" />
       </list>
     </option>
   </component>
@@ -252,6 +256,13 @@
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="树" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
@@ -526,7 +537,7 @@
       <workItem from="1548224329480" duration="8817000" />
       <workItem from="1548254285725" duration="593000" />
       <workItem from="1548389684599" duration="3004000" />
-      <workItem from="1548471620114" duration="2100000" />
+      <workItem from="1548471620114" duration="2519000" />
     </task>
     <task id="LOCAL-00001" summary="[add] 部分题解">
       <created>1547032741634</created>
@@ -850,11 +861,18 @@
       <option name="project" value="LOCAL" />
       <updated>1548473171729</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="[add] 添加24题">
+      <created>1548473732153</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1548473732153</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="185052000" />
+    <option name="totallyTimeSpent" value="185471000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -905,7 +923,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[add] 添加198题" />
     <MESSAGE value="[add] 添加213题" />
     <MESSAGE value="[add] 添加303题" />
     <MESSAGE value="[revise] 添加744题" />
@@ -930,7 +947,8 @@
     <MESSAGE value="[revise] 添加198题" />
     <MESSAGE value="[add] 添加300题" />
     <MESSAGE value="[add] 添加19题" />
-    <option name="LAST_COMMIT_MESSAGE" value="[add] 添加19题" />
+    <MESSAGE value="[add] 添加24题" />
+    <option name="LAST_COMMIT_MESSAGE" value="[add] 添加24题" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -939,20 +957,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/leetcode/贪心算法/leetcode435.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/贪心算法/leetcode452.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/贪心算法/leetcode455.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
@@ -1303,7 +1307,26 @@
     <entry file="file://$PROJECT_DIR$/src/leetcode/链表/leetcode24.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
-          <caret line="7" column="4" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/树/TreeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="7" column="16" lean-forward="false" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+          <folding>
+            <element signature="e#116#117#0" expanded="true" />
+            <element signature="e#139#140#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/树/leetcode104.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="10" selection-end-column="5" />
           <folding />
         </state>
       </provider>
