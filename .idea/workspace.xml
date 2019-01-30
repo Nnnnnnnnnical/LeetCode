@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4cfa4f4b-9f4e-46e9-ae96-a9ff0a185c35" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/链表/leetcode21.java" afterPath="$PROJECT_DIR$/src/leetcode/链表/leetcode21.java" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/链表/leetcode83.java" afterPath="$PROJECT_DIR$/src/leetcode/链表/leetcode83.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -78,16 +78,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TreeNode.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/树/TreeNode.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="797">
-              <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="leetcode19.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcode/链表/leetcode19.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -98,11 +88,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="leetcode21.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="leetcode21.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcode/链表/leetcode21.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
+            <state relative-caret-position="858">
               <caret line="33" column="14" lean-forward="false" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="leetcode24.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/链表/leetcode24.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="130">
+              <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="leetcode83.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/链表/leetcode83.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="494">
+              <caret line="19" column="13" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -114,18 +124,6 @@
             <state relative-caret-position="650">
               <caret line="39" column="9" lean-forward="true" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="leetcode145.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/树/leetcode145.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="511">
-              <caret line="28" column="35" lean-forward="false" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -191,7 +189,6 @@
         <option value="$PROJECT_DIR$/src/leetcode/链表/leetcode160.java" />
         <option value="$PROJECT_DIR$/src/leetcode/链表/leetcode206.java" />
         <option value="$PROJECT_DIR$/src/leetcode/链表/ListNode.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/链表/leetcode83.java" />
         <option value="$PROJECT_DIR$/src/leetcode/动态规划/leetcode343.java" />
         <option value="$PROJECT_DIR$/src/leetcode/二分查找/leetcode43.java" />
         <option value="$PROJECT_DIR$/src/leetcode/动态规划/leetcode198.java" />
@@ -209,6 +206,7 @@
         <option value="$PROJECT_DIR$/src/leetcode/树/leetcode94.java" />
         <option value="$PROJECT_DIR$/src/leetcode/树/leetcode104.java" />
         <option value="$PROJECT_DIR$/src/leetcode/链表/leetcode21.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/链表/leetcode83.java" />
       </list>
     </option>
   </component>
@@ -554,14 +552,7 @@
       <workItem from="1548560958232" duration="3409000" />
       <workItem from="1548594781352" duration="14500000" />
       <workItem from="1548734830940" duration="2788000" />
-      <workItem from="1548823557439" duration="5106000" />
-    </task>
-    <task id="LOCAL-00012" summary="[add] 添加241 200题">
-      <created>1547445044677</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1547445044677</updated>
+      <workItem from="1548823557439" duration="6420000" />
     </task>
     <task id="LOCAL-00013" summary="[revise] 优化69题代码">
       <created>1547534769609</created>
@@ -899,11 +890,18 @@
       <option name="project" value="LOCAL" />
       <updated>1548829320358</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="[revise] 添加21题解法">
+      <created>1548829345315</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1548829345316</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="215599000" />
+    <option name="totallyTimeSpent" value="216913000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1257,22 +1255,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/链表/leetcode24.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/链表/leetcode83.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="8" column="5" lean-forward="false" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/链表/leetcode160.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
@@ -1371,10 +1353,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/链表/leetcode24.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/链表/leetcode21.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
+        <state relative-caret-position="858">
           <caret line="33" column="14" lean-forward="false" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/链表/leetcode83.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="19" column="13" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
           <folding />
         </state>
       </provider>
