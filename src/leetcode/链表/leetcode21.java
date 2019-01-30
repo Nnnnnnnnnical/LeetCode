@@ -8,6 +8,7 @@ import org.w3c.dom.NodeList;
 public class leetcode21 {
     public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
 
+        //解法1
         ListNode temp = new ListNode(-1);
         ListNode result = temp;
 
@@ -30,7 +31,7 @@ public class leetcode21 {
         }
 
         return result.next;
-
+//         解法2
 //        if(l1 == null){
 //            return l2;
 //        }
