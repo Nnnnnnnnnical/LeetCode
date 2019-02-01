@@ -14,7 +14,7 @@ public class leetcode605 {
     }
 
     /**
-     * 创建指针pre，next分别指向当前位置i的前一个和后一个，判断他们都是0时，才能让count+1，最后比较n是否小于等于count，是则返回true
+     * 遍历flower，如果当前位置不为1，则创建指针pre，next分别指向当前位置i的前一个和后一个，判断他们都是0时，才能让count+1，最后比较n是否小于等于count，是则返回true
      * @param flowerbed
      * @param n
      * @return
