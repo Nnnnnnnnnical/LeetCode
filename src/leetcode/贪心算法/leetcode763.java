@@ -27,18 +27,18 @@ public class leetcode763 {
             lastIndexArray[char2Index(S.charAt(i))] = i;
         }
         List<Integer> answer = new ArrayList<>();
-        int lastindex = 0,firstIndex = 0;
+        int lastIndex = 0,firstIndex = 0;
         while (firstIndex<S.length()){
 
-            for (int i = firstIndex;i<=lastindex;i++){
+            for (int i = firstIndex;i<=lastIndex;i++){
                 int index = lastIndexArray[char2Index(S.charAt(i))];
-                if(index>lastindex){
-                    lastindex = index;
+                if(index>lastIndex){
+                    lastIndex = index;
                 }
             }
-            answer.add(lastindex-firstIndex+1);
-            firstIndex = lastindex+1;
-            lastindex = firstIndex;
+            answer.add(lastIndex-firstIndex+1);
+            firstIndex = lastIndex+1;
+            lastIndex = firstIndex;
         }
 
         return answer;
