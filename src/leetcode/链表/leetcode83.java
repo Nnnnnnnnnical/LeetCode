@@ -11,15 +11,29 @@ public class leetcode83 {
 //        head.next = deleteDuplicates(head.next);
 //        return head.val == head.next.val ? head.next : head;
 
-        //解法2
-        ListNode p = head;
-        while (p != null) {
-            ListNode q = p.next;
-            while (q != null && q.val == p.val) {
-                q = q.next;
+//        //解法2
+//        ListNode p = head;
+//        while (p != null) {
+//            ListNode q = p.next;
+//            while (q != null && q.val == p.val) {
+//                q = q.next;
+//            }
+//            p.next = q;
+//            p = p.next;
+//        }
+//        return head;
+
+        //解法3
+        ListNode pre = head;
+        while(pre!=null && pre.next != null){
+            ListNode cur = pre.next;
+            if(cur.val == pre.val){
+                pre.next = cur.next;
+                cur = cur.next;
+                continue;
             }
-            p.next = q;
-            p = p.next;
+            pre = pre.next;
+            cur = cur.next;
         }
         return head;
     }
